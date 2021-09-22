@@ -1,6 +1,6 @@
 const express= require("express")
 const app=express()
-app.get('/',(req,res)=>{
+app.get('/',(req,res,next)=>{
     // res.send("Hello ")
     // res.send()
     // res.status(200).send("hello")
